@@ -1,16 +1,18 @@
-from api.brasilapi import obter_feriados
-from core.pipeline import Pipeline
+from api.produtos import buscar_produto
+from services.produtos import carregar_produtos
 
 
 def main():
 
-    dados = obter_feriados()
+    produtos = carregar_produtos()
 
-    pipeline = Pipeline()
+    for produto in produtos:
 
-    df = pipeline.executar(dados)
+        dados = buscar_produto(produto["nome"])
 
-    print(df.head())
+        print(f"\nPesquisa: {produto['nome']}")
+
+        print(dados)
 
 
 if __name__ == "__main__":

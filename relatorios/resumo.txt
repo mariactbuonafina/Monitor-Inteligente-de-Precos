@@ -1,6 +1,0 @@
-=== RESUMO DA COLETA ===
-
-Total de registros: 13
-Colunas: data, feriado, tipo, weekday, data_coleta
-Última coleta: 2026-07-29 18:22:19.480963
-Tipos de feriado: 1

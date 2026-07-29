@@ -1,14 +1,15 @@
 from pathlib import Path
 
-# deixe aqui para organizar as pastas
+# path das pastas
 DADOS_DIR = Path("dados")
 LOGS_DIR = Path("logs")
-RELATORIOS_DIR = Path("relatorios")
 GRAFICOS_DIR = Path("graficos")
+RELATORIOS_DIR = Path("relatorios")
 
-# referencie os arquivos e caminhos aqui
-FERIADOS_CSV = DADOS_DIR / "feriados.csv"
+# ref dos arquivos path
+PRODUTOS_JSON = DADOS_DIR / "produtos.json"
+PRECOS_CSV = DADOS_DIR / "precos.csv"
 HISTORICO_CSV = DADOS_DIR / "historico.csv"
 
-# links das urls das APIs
-BRASIL_API_FERIADOS = "https://brasilapi.com.br/api/feriados/v1/2026"
+# urls das APIs
+BASE_URL = "https://dummyjson.com/products/search"
