@@ -1,11 +1,5 @@
 [
-    {
-        "nome": "mouse"
-    },
-    {
-        "nome": "monitor"
-    },
-    {
-        "nome": "ssd"
-    }
+  { "nome": "iphone" },
+  { "nome": "laptop" },
+  { "nome": "perfume" }
 ]

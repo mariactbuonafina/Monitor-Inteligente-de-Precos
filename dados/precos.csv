@@ -1,4 +1,14 @@
-data_coleta,produto,categoria,preco,loja
-2026-07-28 22:03:58,Mouse Gamer,Periféricos,129.9,Loja Tech
-2026-07-28 22:03:58,Teclado Mecânico,Periféricos,299.9,Loja Tech
-2026-07-28 22:03:58,Monitor 24,Monitores,899.9,Loja Digital
+data_coleta,produto,categoria,marca,preco,avaliacao,estoque,origem
+2026-07-30 15:44:10.979245,Apple iPhone Charger,mobile-accessories,Apple,19.99,4.15,31,DummyJSON
+2026-07-30 15:44:10.979245,Apple MagSafe Battery Pack,mobile-accessories,Apple,99.99,3.62,1,DummyJSON
+2026-07-30 15:44:10.979245,iPhone 12 Silicone Case with MagSafe Plum,mobile-accessories,Apple,29.99,3.62,69,DummyJSON
+2026-07-30 15:44:10.979245,Selfie Lamp with iPhone,mobile-accessories,GadgetMaster,14.99,3.55,58,DummyJSON
+2026-07-30 15:44:10.979245,iPhone 5s,smartphones,Apple,199.99,2.83,25,DummyJSON
+2026-07-30 15:44:10.979245,iPhone 6,smartphones,Apple,299.99,3.41,60,DummyJSON
+2026-07-30 15:44:10.979245,iPhone 13 Pro,smartphones,Apple,1099.99,4.12,56,DummyJSON
+2026-07-30 15:44:10.979245,iPhone X,smartphones,Apple,899.99,2.51,37,DummyJSON
+2026-07-30 15:44:11.483879,Apple MacBook Pro 14 Inch Space Grey,laptops,Apple,1999.99,3.65,24,DummyJSON
+2026-07-30 15:44:11.483879,Asus Zenbook Pro Dual Screen Laptop,laptops,Asus,1799.99,3.95,45,DummyJSON
+2026-07-30 15:44:11.483879,Huawei Matebook X Pro,laptops,Huawei,1399.99,4.98,75,DummyJSON
+2026-07-30 15:44:11.483879,Lenovo Yoga 920,laptops,Lenovo,1099.99,2.86,40,DummyJSON
+2026-07-30 15:44:11.483879,New DELL XPS 13 9300 Laptop,laptops,Dell,1499.99,2.67,74,DummyJSON

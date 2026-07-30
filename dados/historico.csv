@@ -1,118 +1,183 @@
-data,feriado,tipo,weekday,data coleta,data_coleta
-2026-01-01,Confraternização mundial,national,quinta-feira,2026-07-29 17:51:26.000261,
-2026-02-17,Carnaval,national,terça-feira,2026-07-29 17:51:26.000261,
-2026-04-03,Sexta-feira Santa,national,sexta-feira,2026-07-29 17:51:26.000261,
-2026-04-05,Páscoa,national,domingo,2026-07-29 17:51:26.000261,
-2026-04-21,Tiradentes,national,terça-feira,2026-07-29 17:51:26.000261,
-2026-05-01,Dia do trabalho,national,sexta-feira,2026-07-29 17:51:26.000261,
-2026-06-04,Corpus Christi,national,quinta-feira,2026-07-29 17:51:26.000261,
-2026-09-07,Independência do Brasil,national,segunda-feira,2026-07-29 17:51:26.000261,
-2026-10-12,Nossa Senhora Aparecida,national,segunda-feira,2026-07-29 17:51:26.000261,
-2026-11-02,Finados,national,segunda-feira,2026-07-29 17:51:26.000261,
-2026-11-15,Proclamação da República,national,domingo,2026-07-29 17:51:26.000261,
-2026-11-20,Dia da consciência negra,national,sexta-feira,2026-07-29 17:51:26.000261,
-2026-12-25,Natal,national,sexta-feira,2026-07-29 17:51:26.000261,
-2026-01-01,Confraternização mundial,national,quinta-feira,2026-07-29 17:53:28.111888,
-2026-02-17,Carnaval,national,terça-feira,2026-07-29 17:53:28.111888,
-2026-04-03,Sexta-feira Santa,national,sexta-feira,2026-07-29 17:53:28.111888,
-2026-04-05,Páscoa,national,domingo,2026-07-29 17:53:28.111888,
-2026-04-21,Tiradentes,national,terça-feira,2026-07-29 17:53:28.111888,
-2026-05-01,Dia do trabalho,national,sexta-feira,2026-07-29 17:53:28.111888,
-2026-06-04,Corpus Christi,national,quinta-feira,2026-07-29 17:53:28.111888,
-2026-09-07,Independência do Brasil,national,segunda-feira,2026-07-29 17:53:28.111888,
-2026-10-12,Nossa Senhora Aparecida,national,segunda-feira,2026-07-29 17:53:28.111888,
-2026-11-02,Finados,national,segunda-feira,2026-07-29 17:53:28.111888,
-2026-11-15,Proclamação da República,national,domingo,2026-07-29 17:53:28.111888,
-2026-11-20,Dia da consciência negra,national,sexta-feira,2026-07-29 17:53:28.111888,
-2026-12-25,Natal,national,sexta-feira,2026-07-29 17:53:28.111888,
-2026-01-01,Confraternização mundial,national,quinta-feira,2026-07-29 17:58:00.107345,
-2026-02-17,Carnaval,national,terça-feira,2026-07-29 17:58:00.107345,
-2026-04-03,Sexta-feira Santa,national,sexta-feira,2026-07-29 17:58:00.107345,
-2026-04-05,Páscoa,national,domingo,2026-07-29 17:58:00.107345,
-2026-04-21,Tiradentes,national,terça-feira,2026-07-29 17:58:00.107345,
-2026-05-01,Dia do trabalho,national,sexta-feira,2026-07-29 17:58:00.107345,
-2026-06-04,Corpus Christi,national,quinta-feira,2026-07-29 17:58:00.107345,
-2026-09-07,Independência do Brasil,national,segunda-feira,2026-07-29 17:58:00.107345,
-2026-10-12,Nossa Senhora Aparecida,national,segunda-feira,2026-07-29 17:58:00.107345,
-2026-11-02,Finados,national,segunda-feira,2026-07-29 17:58:00.107345,
-2026-11-15,Proclamação da República,national,domingo,2026-07-29 17:58:00.107345,
-2026-11-20,Dia da consciência negra,national,sexta-feira,2026-07-29 17:58:00.107345,
-2026-12-25,Natal,national,sexta-feira,2026-07-29 17:58:00.107345,
-2026-01-01,Confraternização mundial,national,quinta-feira,2026-07-29 18:02:18.675694,
-2026-02-17,Carnaval,national,terça-feira,2026-07-29 18:02:18.675694,
-2026-04-03,Sexta-feira Santa,national,sexta-feira,2026-07-29 18:02:18.675694,
-2026-04-05,Páscoa,national,domingo,2026-07-29 18:02:18.675694,
-2026-04-21,Tiradentes,national,terça-feira,2026-07-29 18:02:18.675694,
-2026-05-01,Dia do trabalho,national,sexta-feira,2026-07-29 18:02:18.675694,
-2026-06-04,Corpus Christi,national,quinta-feira,2026-07-29 18:02:18.675694,
-2026-09-07,Independência do Brasil,national,segunda-feira,2026-07-29 18:02:18.675694,
-2026-10-12,Nossa Senhora Aparecida,national,segunda-feira,2026-07-29 18:02:18.675694,
-2026-11-02,Finados,national,segunda-feira,2026-07-29 18:02:18.675694,
-2026-11-15,Proclamação da República,national,domingo,2026-07-29 18:02:18.675694,
-2026-11-20,Dia da consciência negra,national,sexta-feira,2026-07-29 18:02:18.675694,
-2026-12-25,Natal,national,sexta-feira,2026-07-29 18:02:18.675694,
-2026-01-01,Confraternização mundial,national,quinta-feira,2026-07-29 18:05:58.182457,
-2026-02-17,Carnaval,national,terça-feira,2026-07-29 18:05:58.182457,
-2026-04-03,Sexta-feira Santa,national,sexta-feira,2026-07-29 18:05:58.182457,
-2026-04-05,Páscoa,national,domingo,2026-07-29 18:05:58.182457,
-2026-04-21,Tiradentes,national,terça-feira,2026-07-29 18:05:58.182457,
-2026-05-01,Dia do trabalho,national,sexta-feira,2026-07-29 18:05:58.182457,
-2026-06-04,Corpus Christi,national,quinta-feira,2026-07-29 18:05:58.182457,
-2026-09-07,Independência do Brasil,national,segunda-feira,2026-07-29 18:05:58.182457,
-2026-10-12,Nossa Senhora Aparecida,national,segunda-feira,2026-07-29 18:05:58.182457,
-2026-11-02,Finados,national,segunda-feira,2026-07-29 18:05:58.182457,
-2026-11-15,Proclamação da República,national,domingo,2026-07-29 18:05:58.182457,
-2026-11-20,Dia da consciência negra,national,sexta-feira,2026-07-29 18:05:58.182457,
-2026-12-25,Natal,national,sexta-feira,2026-07-29 18:05:58.182457,
-2026-01-01,Confraternização mundial,national,quinta-feira,2026-07-29 18:17:04.201393,
-2026-02-17,Carnaval,national,terça-feira,2026-07-29 18:17:04.201393,
-2026-04-03,Sexta-feira Santa,national,sexta-feira,2026-07-29 18:17:04.201393,
-2026-04-05,Páscoa,national,domingo,2026-07-29 18:17:04.201393,
-2026-04-21,Tiradentes,national,terça-feira,2026-07-29 18:17:04.201393,
-2026-05-01,Dia do trabalho,national,sexta-feira,2026-07-29 18:17:04.201393,
-2026-06-04,Corpus Christi,national,quinta-feira,2026-07-29 18:17:04.201393,
-2026-09-07,Independência do Brasil,national,segunda-feira,2026-07-29 18:17:04.201393,
-2026-10-12,Nossa Senhora Aparecida,national,segunda-feira,2026-07-29 18:17:04.201393,
-2026-11-02,Finados,national,segunda-feira,2026-07-29 18:17:04.201393,
-2026-11-15,Proclamação da República,national,domingo,2026-07-29 18:17:04.201393,
-2026-11-20,Dia da consciência negra,national,sexta-feira,2026-07-29 18:17:04.201393,
-2026-12-25,Natal,national,sexta-feira,2026-07-29 18:17:04.201393,
-2026-01-01,Confraternização mundial,national,quinta-feira,2026-07-29 18:17:46.038109,
-2026-02-17,Carnaval,national,terça-feira,2026-07-29 18:17:46.038109,
-2026-04-03,Sexta-feira Santa,national,sexta-feira,2026-07-29 18:17:46.038109,
-2026-04-05,Páscoa,national,domingo,2026-07-29 18:17:46.038109,
-2026-04-21,Tiradentes,national,terça-feira,2026-07-29 18:17:46.038109,
-2026-05-01,Dia do trabalho,national,sexta-feira,2026-07-29 18:17:46.038109,
-2026-06-04,Corpus Christi,national,quinta-feira,2026-07-29 18:17:46.038109,
-2026-09-07,Independência do Brasil,national,segunda-feira,2026-07-29 18:17:46.038109,
-2026-10-12,Nossa Senhora Aparecida,national,segunda-feira,2026-07-29 18:17:46.038109,
-2026-11-02,Finados,national,segunda-feira,2026-07-29 18:17:46.038109,
-2026-11-15,Proclamação da República,national,domingo,2026-07-29 18:17:46.038109,
-2026-11-20,Dia da consciência negra,national,sexta-feira,2026-07-29 18:17:46.038109,
-2026-12-25,Natal,national,sexta-feira,2026-07-29 18:17:46.038109,
-2026-01-01,Confraternização mundial,national,quinta-feira,2026-07-29 18:20:06.576492,
-2026-02-17,Carnaval,national,terça-feira,2026-07-29 18:20:06.576492,
-2026-04-03,Sexta-feira Santa,national,sexta-feira,2026-07-29 18:20:06.576492,
-2026-04-05,Páscoa,national,domingo,2026-07-29 18:20:06.576492,
-2026-04-21,Tiradentes,national,terça-feira,2026-07-29 18:20:06.576492,
-2026-05-01,Dia do trabalho,national,sexta-feira,2026-07-29 18:20:06.576492,
-2026-06-04,Corpus Christi,national,quinta-feira,2026-07-29 18:20:06.576492,
-2026-09-07,Independência do Brasil,national,segunda-feira,2026-07-29 18:20:06.576492,
-2026-10-12,Nossa Senhora Aparecida,national,segunda-feira,2026-07-29 18:20:06.576492,
-2026-11-02,Finados,national,segunda-feira,2026-07-29 18:20:06.576492,
-2026-11-15,Proclamação da República,national,domingo,2026-07-29 18:20:06.576492,
-2026-11-20,Dia da consciência negra,national,sexta-feira,2026-07-29 18:20:06.576492,
-2026-12-25,Natal,national,sexta-feira,2026-07-29 18:20:06.576492,
-2026-01-01,Confraternização mundial,national,quinta-feira,,2026-07-29 18:22:19.480963
-2026-02-17,Carnaval,national,terça-feira,,2026-07-29 18:22:19.480963
-2026-04-03,Sexta-feira Santa,national,sexta-feira,,2026-07-29 18:22:19.480963
-2026-04-05,Páscoa,national,domingo,,2026-07-29 18:22:19.480963
-2026-04-21,Tiradentes,national,terça-feira,,2026-07-29 18:22:19.480963
-2026-05-01,Dia do trabalho,national,sexta-feira,,2026-07-29 18:22:19.480963
-2026-06-04,Corpus Christi,national,quinta-feira,,2026-07-29 18:22:19.480963
-2026-09-07,Independência do Brasil,national,segunda-feira,,2026-07-29 18:22:19.480963
-2026-10-12,Nossa Senhora Aparecida,national,segunda-feira,,2026-07-29 18:22:19.480963
-2026-11-02,Finados,national,segunda-feira,,2026-07-29 18:22:19.480963
-2026-11-15,Proclamação da República,national,domingo,,2026-07-29 18:22:19.480963
-2026-11-20,Dia da consciência negra,national,sexta-feira,,2026-07-29 18:22:19.480963
-2026-12-25,Natal,national,sexta-feira,,2026-07-29 18:22:19.480963
+data_coleta,produto,categoria,marca,preco,avaliacao,estoque,origem
+2026-07-30 15:02:04.643686,Apple iPhone Charger,mobile-accessories,Apple,19.99,4.15,31,DummyJSON
+2026-07-30 15:02:04.643686,Apple MagSafe Battery Pack,mobile-accessories,Apple,99.99,3.62,1,DummyJSON
+2026-07-30 15:02:04.643686,iPhone 12 Silicone Case with MagSafe Plum,mobile-accessories,Apple,29.99,3.62,69,DummyJSON
+2026-07-30 15:02:04.643686,Selfie Lamp with iPhone,mobile-accessories,GadgetMaster,14.99,3.55,58,DummyJSON
+2026-07-30 15:02:04.643686,iPhone 5s,smartphones,Apple,199.99,2.83,25,DummyJSON
+2026-07-30 15:02:04.643686,iPhone 6,smartphones,Apple,299.99,3.41,60,DummyJSON
+2026-07-30 15:02:04.643686,iPhone 13 Pro,smartphones,Apple,1099.99,4.12,56,DummyJSON
+2026-07-30 15:02:04.643686,iPhone X,smartphones,Apple,899.99,2.51,37,DummyJSON
+2026-07-30 15:02:05.359677,Apple MacBook Pro 14 Inch Space Grey,laptops,Apple,1999.99,3.65,24,DummyJSON
+2026-07-30 15:02:05.359677,Asus Zenbook Pro Dual Screen Laptop,laptops,Asus,1799.99,3.95,45,DummyJSON
+2026-07-30 15:02:05.359677,Huawei Matebook X Pro,laptops,Huawei,1399.99,4.98,75,DummyJSON
+2026-07-30 15:02:05.359677,Lenovo Yoga 920,laptops,Lenovo,1099.99,2.86,40,DummyJSON
+2026-07-30 15:02:05.359677,New DELL XPS 13 9300 Laptop,laptops,Dell,1499.99,2.67,74,DummyJSON
+2026-07-30 15:04:27.571254,Apple iPhone Charger,mobile-accessories,Apple,19.99,4.15,31,DummyJSON
+2026-07-30 15:04:27.571254,Apple MagSafe Battery Pack,mobile-accessories,Apple,99.99,3.62,1,DummyJSON
+2026-07-30 15:04:27.571254,iPhone 12 Silicone Case with MagSafe Plum,mobile-accessories,Apple,29.99,3.62,69,DummyJSON
+2026-07-30 15:04:27.571254,Selfie Lamp with iPhone,mobile-accessories,GadgetMaster,14.99,3.55,58,DummyJSON
+2026-07-30 15:04:27.571254,iPhone 5s,smartphones,Apple,199.99,2.83,25,DummyJSON
+2026-07-30 15:04:27.571254,iPhone 6,smartphones,Apple,299.99,3.41,60,DummyJSON
+2026-07-30 15:04:27.571254,iPhone 13 Pro,smartphones,Apple,1099.99,4.12,56,DummyJSON
+2026-07-30 15:04:27.571254,iPhone X,smartphones,Apple,899.99,2.51,37,DummyJSON
+2026-07-30 15:04:28.949652,Apple MacBook Pro 14 Inch Space Grey,laptops,Apple,1999.99,3.65,24,DummyJSON
+2026-07-30 15:04:28.949652,Asus Zenbook Pro Dual Screen Laptop,laptops,Asus,1799.99,3.95,45,DummyJSON
+2026-07-30 15:04:28.949652,Huawei Matebook X Pro,laptops,Huawei,1399.99,4.98,75,DummyJSON
+2026-07-30 15:04:28.949652,Lenovo Yoga 920,laptops,Lenovo,1099.99,2.86,40,DummyJSON
+2026-07-30 15:04:28.949652,New DELL XPS 13 9300 Laptop,laptops,Dell,1499.99,2.67,74,DummyJSON
+2026-07-30 15:07:04.262431,Apple iPhone Charger,mobile-accessories,Apple,19.99,4.15,31,DummyJSON
+2026-07-30 15:07:04.262431,Apple MagSafe Battery Pack,mobile-accessories,Apple,99.99,3.62,1,DummyJSON
+2026-07-30 15:07:04.262431,iPhone 12 Silicone Case with MagSafe Plum,mobile-accessories,Apple,29.99,3.62,69,DummyJSON
+2026-07-30 15:07:04.262431,Selfie Lamp with iPhone,mobile-accessories,GadgetMaster,14.99,3.55,58,DummyJSON
+2026-07-30 15:07:04.262431,iPhone 5s,smartphones,Apple,199.99,2.83,25,DummyJSON
+2026-07-30 15:07:04.262431,iPhone 6,smartphones,Apple,299.99,3.41,60,DummyJSON
+2026-07-30 15:07:04.262431,iPhone 13 Pro,smartphones,Apple,1099.99,4.12,56,DummyJSON
+2026-07-30 15:07:04.262431,iPhone X,smartphones,Apple,899.99,2.51,37,DummyJSON
+2026-07-30 15:07:04.957955,Apple MacBook Pro 14 Inch Space Grey,laptops,Apple,1999.99,3.65,24,DummyJSON
+2026-07-30 15:07:04.957955,Asus Zenbook Pro Dual Screen Laptop,laptops,Asus,1799.99,3.95,45,DummyJSON
+2026-07-30 15:07:04.957955,Huawei Matebook X Pro,laptops,Huawei,1399.99,4.98,75,DummyJSON
+2026-07-30 15:07:04.957955,Lenovo Yoga 920,laptops,Lenovo,1099.99,2.86,40,DummyJSON
+2026-07-30 15:07:04.957955,New DELL XPS 13 9300 Laptop,laptops,Dell,1499.99,2.67,74,DummyJSON
+2026-07-30 15:11:49.376780,Apple iPhone Charger,mobile-accessories,Apple,19.99,4.15,31,DummyJSON
+2026-07-30 15:11:49.376780,Apple MagSafe Battery Pack,mobile-accessories,Apple,99.99,3.62,1,DummyJSON
+2026-07-30 15:11:49.376780,iPhone 12 Silicone Case with MagSafe Plum,mobile-accessories,Apple,29.99,3.62,69,DummyJSON
+2026-07-30 15:11:49.376780,Selfie Lamp with iPhone,mobile-accessories,GadgetMaster,14.99,3.55,58,DummyJSON
+2026-07-30 15:11:49.376780,iPhone 5s,smartphones,Apple,199.99,2.83,25,DummyJSON
+2026-07-30 15:11:49.376780,iPhone 6,smartphones,Apple,299.99,3.41,60,DummyJSON
+2026-07-30 15:11:49.376780,iPhone 13 Pro,smartphones,Apple,1099.99,4.12,56,DummyJSON
+2026-07-30 15:11:49.376780,iPhone X,smartphones,Apple,899.99,2.51,37,DummyJSON
+2026-07-30 15:11:50.054096,Apple MacBook Pro 14 Inch Space Grey,laptops,Apple,1999.99,3.65,24,DummyJSON
+2026-07-30 15:11:50.054096,Asus Zenbook Pro Dual Screen Laptop,laptops,Asus,1799.99,3.95,45,DummyJSON
+2026-07-30 15:11:50.054096,Huawei Matebook X Pro,laptops,Huawei,1399.99,4.98,75,DummyJSON
+2026-07-30 15:11:50.054096,Lenovo Yoga 920,laptops,Lenovo,1099.99,2.86,40,DummyJSON
+2026-07-30 15:11:50.054096,New DELL XPS 13 9300 Laptop,laptops,Dell,1499.99,2.67,74,DummyJSON
+2026-07-30 15:14:42.395811,Apple iPhone Charger,mobile-accessories,Apple,19.99,4.15,31,DummyJSON
+2026-07-30 15:14:42.395811,Apple MagSafe Battery Pack,mobile-accessories,Apple,99.99,3.62,1,DummyJSON
+2026-07-30 15:14:42.395811,iPhone 12 Silicone Case with MagSafe Plum,mobile-accessories,Apple,29.99,3.62,69,DummyJSON
+2026-07-30 15:14:42.395811,Selfie Lamp with iPhone,mobile-accessories,GadgetMaster,14.99,3.55,58,DummyJSON
+2026-07-30 15:14:42.395811,iPhone 5s,smartphones,Apple,199.99,2.83,25,DummyJSON
+2026-07-30 15:14:42.395811,iPhone 6,smartphones,Apple,299.99,3.41,60,DummyJSON
+2026-07-30 15:14:42.395811,iPhone 13 Pro,smartphones,Apple,1099.99,4.12,56,DummyJSON
+2026-07-30 15:14:42.395811,iPhone X,smartphones,Apple,899.99,2.51,37,DummyJSON
+2026-07-30 15:14:43.316996,Apple MacBook Pro 14 Inch Space Grey,laptops,Apple,1999.99,3.65,24,DummyJSON
+2026-07-30 15:14:43.316996,Asus Zenbook Pro Dual Screen Laptop,laptops,Asus,1799.99,3.95,45,DummyJSON
+2026-07-30 15:14:43.316996,Huawei Matebook X Pro,laptops,Huawei,1399.99,4.98,75,DummyJSON
+2026-07-30 15:14:43.316996,Lenovo Yoga 920,laptops,Lenovo,1099.99,2.86,40,DummyJSON
+2026-07-30 15:14:43.316996,New DELL XPS 13 9300 Laptop,laptops,Dell,1499.99,2.67,74,DummyJSON
+2026-07-30 15:19:31.863427,Apple iPhone Charger,mobile-accessories,Apple,19.99,4.15,31,DummyJSON
+2026-07-30 15:19:31.863427,Apple MagSafe Battery Pack,mobile-accessories,Apple,99.99,3.62,1,DummyJSON
+2026-07-30 15:19:31.863427,iPhone 12 Silicone Case with MagSafe Plum,mobile-accessories,Apple,29.99,3.62,69,DummyJSON
+2026-07-30 15:19:31.863427,Selfie Lamp with iPhone,mobile-accessories,GadgetMaster,14.99,3.55,58,DummyJSON
+2026-07-30 15:19:31.863427,iPhone 5s,smartphones,Apple,199.99,2.83,25,DummyJSON
+2026-07-30 15:19:31.863427,iPhone 6,smartphones,Apple,299.99,3.41,60,DummyJSON
+2026-07-30 15:19:31.863427,iPhone 13 Pro,smartphones,Apple,1099.99,4.12,56,DummyJSON
+2026-07-30 15:19:31.863427,iPhone X,smartphones,Apple,899.99,2.51,37,DummyJSON
+2026-07-30 15:19:32.698145,Apple MacBook Pro 14 Inch Space Grey,laptops,Apple,1999.99,3.65,24,DummyJSON
+2026-07-30 15:19:32.698145,Asus Zenbook Pro Dual Screen Laptop,laptops,Asus,1799.99,3.95,45,DummyJSON
+2026-07-30 15:19:32.698145,Huawei Matebook X Pro,laptops,Huawei,1399.99,4.98,75,DummyJSON
+2026-07-30 15:19:32.698145,Lenovo Yoga 920,laptops,Lenovo,1099.99,2.86,40,DummyJSON
+2026-07-30 15:19:32.698145,New DELL XPS 13 9300 Laptop,laptops,Dell,1499.99,2.67,74,DummyJSON
+2026-07-30 15:21:01.900700,Apple iPhone Charger,mobile-accessories,Apple,19.99,4.15,31,DummyJSON
+2026-07-30 15:21:01.900700,Apple MagSafe Battery Pack,mobile-accessories,Apple,99.99,3.62,1,DummyJSON
+2026-07-30 15:21:01.900700,iPhone 12 Silicone Case with MagSafe Plum,mobile-accessories,Apple,29.99,3.62,69,DummyJSON
+2026-07-30 15:21:01.900700,Selfie Lamp with iPhone,mobile-accessories,GadgetMaster,14.99,3.55,58,DummyJSON
+2026-07-30 15:21:01.900700,iPhone 5s,smartphones,Apple,199.99,2.83,25,DummyJSON
+2026-07-30 15:21:01.900700,iPhone 6,smartphones,Apple,299.99,3.41,60,DummyJSON
+2026-07-30 15:21:01.900700,iPhone 13 Pro,smartphones,Apple,1099.99,4.12,56,DummyJSON
+2026-07-30 15:21:01.900700,iPhone X,smartphones,Apple,899.99,2.51,37,DummyJSON
+2026-07-30 15:21:02.408473,Apple MacBook Pro 14 Inch Space Grey,laptops,Apple,1999.99,3.65,24,DummyJSON
+2026-07-30 15:21:02.408473,Asus Zenbook Pro Dual Screen Laptop,laptops,Asus,1799.99,3.95,45,DummyJSON
+2026-07-30 15:21:02.408473,Huawei Matebook X Pro,laptops,Huawei,1399.99,4.98,75,DummyJSON
+2026-07-30 15:21:02.408473,Lenovo Yoga 920,laptops,Lenovo,1099.99,2.86,40,DummyJSON
+2026-07-30 15:21:02.408473,New DELL XPS 13 9300 Laptop,laptops,Dell,1499.99,2.67,74,DummyJSON
+2026-07-30 15:21:53.084861,Apple iPhone Charger,mobile-accessories,Apple,19.99,4.15,31,DummyJSON
+2026-07-30 15:21:53.084861,Apple MagSafe Battery Pack,mobile-accessories,Apple,99.99,3.62,1,DummyJSON
+2026-07-30 15:21:53.084861,iPhone 12 Silicone Case with MagSafe Plum,mobile-accessories,Apple,29.99,3.62,69,DummyJSON
+2026-07-30 15:21:53.084861,Selfie Lamp with iPhone,mobile-accessories,GadgetMaster,14.99,3.55,58,DummyJSON
+2026-07-30 15:21:53.084861,iPhone 5s,smartphones,Apple,199.99,2.83,25,DummyJSON
+2026-07-30 15:21:53.084861,iPhone 6,smartphones,Apple,299.99,3.41,60,DummyJSON
+2026-07-30 15:21:53.084861,iPhone 13 Pro,smartphones,Apple,1099.99,4.12,56,DummyJSON
+2026-07-30 15:21:53.084861,iPhone X,smartphones,Apple,899.99,2.51,37,DummyJSON
+2026-07-30 15:21:53.710511,Apple MacBook Pro 14 Inch Space Grey,laptops,Apple,1999.99,3.65,24,DummyJSON
+2026-07-30 15:21:53.710511,Asus Zenbook Pro Dual Screen Laptop,laptops,Asus,1799.99,3.95,45,DummyJSON
+2026-07-30 15:21:53.710511,Huawei Matebook X Pro,laptops,Huawei,1399.99,4.98,75,DummyJSON
+2026-07-30 15:21:53.710511,Lenovo Yoga 920,laptops,Lenovo,1099.99,2.86,40,DummyJSON
+2026-07-30 15:21:53.710511,New DELL XPS 13 9300 Laptop,laptops,Dell,1499.99,2.67,74,DummyJSON
+2026-07-30 15:22:50.281421,Apple iPhone Charger,mobile-accessories,Apple,19.99,4.15,31,DummyJSON
+2026-07-30 15:22:50.281421,Apple MagSafe Battery Pack,mobile-accessories,Apple,99.99,3.62,1,DummyJSON
+2026-07-30 15:22:50.281421,iPhone 12 Silicone Case with MagSafe Plum,mobile-accessories,Apple,29.99,3.62,69,DummyJSON
+2026-07-30 15:22:50.281421,Selfie Lamp with iPhone,mobile-accessories,GadgetMaster,14.99,3.55,58,DummyJSON
+2026-07-30 15:22:50.281421,iPhone 5s,smartphones,Apple,199.99,2.83,25,DummyJSON
+2026-07-30 15:22:50.281421,iPhone 6,smartphones,Apple,299.99,3.41,60,DummyJSON
+2026-07-30 15:22:50.281421,iPhone 13 Pro,smartphones,Apple,1099.99,4.12,56,DummyJSON
+2026-07-30 15:22:50.281421,iPhone X,smartphones,Apple,899.99,2.51,37,DummyJSON
+2026-07-30 15:22:50.800657,Apple MacBook Pro 14 Inch Space Grey,laptops,Apple,1999.99,3.65,24,DummyJSON
+2026-07-30 15:22:50.800657,Asus Zenbook Pro Dual Screen Laptop,laptops,Asus,1799.99,3.95,45,DummyJSON
+2026-07-30 15:22:50.800657,Huawei Matebook X Pro,laptops,Huawei,1399.99,4.98,75,DummyJSON
+2026-07-30 15:22:50.800657,Lenovo Yoga 920,laptops,Lenovo,1099.99,2.86,40,DummyJSON
+2026-07-30 15:22:50.800657,New DELL XPS 13 9300 Laptop,laptops,Dell,1499.99,2.67,74,DummyJSON
+2026-07-30 15:26:31.214934,Apple iPhone Charger,mobile-accessories,Apple,19.99,4.15,31,DummyJSON
+2026-07-30 15:26:31.214934,Apple MagSafe Battery Pack,mobile-accessories,Apple,99.99,3.62,1,DummyJSON
+2026-07-30 15:26:31.214934,iPhone 12 Silicone Case with MagSafe Plum,mobile-accessories,Apple,29.99,3.62,69,DummyJSON
+2026-07-30 15:26:31.214934,Selfie Lamp with iPhone,mobile-accessories,GadgetMaster,14.99,3.55,58,DummyJSON
+2026-07-30 15:26:31.214934,iPhone 5s,smartphones,Apple,199.99,2.83,25,DummyJSON
+2026-07-30 15:26:31.214934,iPhone 6,smartphones,Apple,299.99,3.41,60,DummyJSON
+2026-07-30 15:26:31.214934,iPhone 13 Pro,smartphones,Apple,1099.99,4.12,56,DummyJSON
+2026-07-30 15:26:31.214934,iPhone X,smartphones,Apple,899.99,2.51,37,DummyJSON
+2026-07-30 15:26:32.154165,Apple MacBook Pro 14 Inch Space Grey,laptops,Apple,1999.99,3.65,24,DummyJSON
+2026-07-30 15:26:32.154165,Asus Zenbook Pro Dual Screen Laptop,laptops,Asus,1799.99,3.95,45,DummyJSON
+2026-07-30 15:26:32.154165,Huawei Matebook X Pro,laptops,Huawei,1399.99,4.98,75,DummyJSON
+2026-07-30 15:26:32.154165,Lenovo Yoga 920,laptops,Lenovo,1099.99,2.86,40,DummyJSON
+2026-07-30 15:26:32.154165,New DELL XPS 13 9300 Laptop,laptops,Dell,1499.99,2.67,74,DummyJSON
+2026-07-30 15:30:43.657615,Apple iPhone Charger,mobile-accessories,Apple,19.99,4.15,31,DummyJSON
+2026-07-30 15:30:43.657615,Apple MagSafe Battery Pack,mobile-accessories,Apple,99.99,3.62,1,DummyJSON
+2026-07-30 15:30:43.657615,iPhone 12 Silicone Case with MagSafe Plum,mobile-accessories,Apple,29.99,3.62,69,DummyJSON
+2026-07-30 15:30:43.657615,Selfie Lamp with iPhone,mobile-accessories,GadgetMaster,14.99,3.55,58,DummyJSON
+2026-07-30 15:30:43.657615,iPhone 5s,smartphones,Apple,199.99,2.83,25,DummyJSON
+2026-07-30 15:30:43.657615,iPhone 6,smartphones,Apple,299.99,3.41,60,DummyJSON
+2026-07-30 15:30:43.657615,iPhone 13 Pro,smartphones,Apple,1099.99,4.12,56,DummyJSON
+2026-07-30 15:30:43.657615,iPhone X,smartphones,Apple,899.99,2.51,37,DummyJSON
+2026-07-30 15:30:44.308662,Apple MacBook Pro 14 Inch Space Grey,laptops,Apple,1999.99,3.65,24,DummyJSON
+2026-07-30 15:30:44.308662,Asus Zenbook Pro Dual Screen Laptop,laptops,Asus,1799.99,3.95,45,DummyJSON
+2026-07-30 15:30:44.308662,Huawei Matebook X Pro,laptops,Huawei,1399.99,4.98,75,DummyJSON
+2026-07-30 15:30:44.308662,Lenovo Yoga 920,laptops,Lenovo,1099.99,2.86,40,DummyJSON
+2026-07-30 15:30:44.308662,New DELL XPS 13 9300 Laptop,laptops,Dell,1499.99,2.67,74,DummyJSON
+2026-07-30 15:33:38.204615,Apple iPhone Charger,mobile-accessories,Apple,19.99,4.15,31,DummyJSON
+2026-07-30 15:33:38.204615,Apple MagSafe Battery Pack,mobile-accessories,Apple,99.99,3.62,1,DummyJSON
+2026-07-30 15:33:38.204615,iPhone 12 Silicone Case with MagSafe Plum,mobile-accessories,Apple,29.99,3.62,69,DummyJSON
+2026-07-30 15:33:38.204615,Selfie Lamp with iPhone,mobile-accessories,GadgetMaster,14.99,3.55,58,DummyJSON
+2026-07-30 15:33:38.204615,iPhone 5s,smartphones,Apple,199.99,2.83,25,DummyJSON
+2026-07-30 15:33:38.204615,iPhone 6,smartphones,Apple,299.99,3.41,60,DummyJSON
+2026-07-30 15:33:38.204615,iPhone 13 Pro,smartphones,Apple,1099.99,4.12,56,DummyJSON
+2026-07-30 15:33:38.204615,iPhone X,smartphones,Apple,899.99,2.51,37,DummyJSON
+2026-07-30 15:33:38.727898,Apple MacBook Pro 14 Inch Space Grey,laptops,Apple,1999.99,3.65,24,DummyJSON
+2026-07-30 15:33:38.727898,Asus Zenbook Pro Dual Screen Laptop,laptops,Asus,1799.99,3.95,45,DummyJSON
+2026-07-30 15:33:38.727898,Huawei Matebook X Pro,laptops,Huawei,1399.99,4.98,75,DummyJSON
+2026-07-30 15:33:38.727898,Lenovo Yoga 920,laptops,Lenovo,1099.99,2.86,40,DummyJSON
+2026-07-30 15:33:38.727898,New DELL XPS 13 9300 Laptop,laptops,Dell,1499.99,2.67,74,DummyJSON
+2026-07-30 15:40:09.935277,Apple iPhone Charger,mobile-accessories,Apple,19.99,4.15,31,DummyJSON
+2026-07-30 15:40:09.935277,Apple MagSafe Battery Pack,mobile-accessories,Apple,99.99,3.62,1,DummyJSON
+2026-07-30 15:40:09.935277,iPhone 12 Silicone Case with MagSafe Plum,mobile-accessories,Apple,29.99,3.62,69,DummyJSON
+2026-07-30 15:40:09.935277,Selfie Lamp with iPhone,mobile-accessories,GadgetMaster,14.99,3.55,58,DummyJSON
+2026-07-30 15:40:09.935277,iPhone 5s,smartphones,Apple,199.99,2.83,25,DummyJSON
+2026-07-30 15:40:09.935277,iPhone 6,smartphones,Apple,299.99,3.41,60,DummyJSON
+2026-07-30 15:40:09.935277,iPhone 13 Pro,smartphones,Apple,1099.99,4.12,56,DummyJSON
+2026-07-30 15:40:09.935277,iPhone X,smartphones,Apple,899.99,2.51,37,DummyJSON
+2026-07-30 15:40:10.464930,Apple MacBook Pro 14 Inch Space Grey,laptops,Apple,1999.99,3.65,24,DummyJSON
+2026-07-30 15:40:10.464930,Asus Zenbook Pro Dual Screen Laptop,laptops,Asus,1799.99,3.95,45,DummyJSON
+2026-07-30 15:40:10.464930,Huawei Matebook X Pro,laptops,Huawei,1399.99,4.98,75,DummyJSON
+2026-07-30 15:40:10.464930,Lenovo Yoga 920,laptops,Lenovo,1099.99,2.86,40,DummyJSON
+2026-07-30 15:40:10.464930,New DELL XPS 13 9300 Laptop,laptops,Dell,1499.99,2.67,74,DummyJSON
+2026-07-30 15:44:10.979245,Apple iPhone Charger,mobile-accessories,Apple,19.99,4.15,31,DummyJSON
+2026-07-30 15:44:10.979245,Apple MagSafe Battery Pack,mobile-accessories,Apple,99.99,3.62,1,DummyJSON
+2026-07-30 15:44:10.979245,iPhone 12 Silicone Case with MagSafe Plum,mobile-accessories,Apple,29.99,3.62,69,DummyJSON
+2026-07-30 15:44:10.979245,Selfie Lamp with iPhone,mobile-accessories,GadgetMaster,14.99,3.55,58,DummyJSON
+2026-07-30 15:44:10.979245,iPhone 5s,smartphones,Apple,199.99,2.83,25,DummyJSON
+2026-07-30 15:44:10.979245,iPhone 6,smartphones,Apple,299.99,3.41,60,DummyJSON
+2026-07-30 15:44:10.979245,iPhone 13 Pro,smartphones,Apple,1099.99,4.12,56,DummyJSON
+2026-07-30 15:44:10.979245,iPhone X,smartphones,Apple,899.99,2.51,37,DummyJSON
+2026-07-30 15:44:11.483879,Apple MacBook Pro 14 Inch Space Grey,laptops,Apple,1999.99,3.65,24,DummyJSON
+2026-07-30 15:44:11.483879,Asus Zenbook Pro Dual Screen Laptop,laptops,Asus,1799.99,3.95,45,DummyJSON
+2026-07-30 15:44:11.483879,Huawei Matebook X Pro,laptops,Huawei,1399.99,4.98,75,DummyJSON
+2026-07-30 15:44:11.483879,Lenovo Yoga 920,laptops,Lenovo,1099.99,2.86,40,DummyJSON
+2026-07-30 15:44:11.483879,New DELL XPS 13 9300 Laptop,laptops,Dell,1499.99,2.67,74,DummyJSON

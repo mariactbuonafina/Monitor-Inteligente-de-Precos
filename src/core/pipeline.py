@@ -1,26 +1,19 @@
-from services.tratamento import transformar_feriados
 from services.persistencia import salvar_csv
 from services.analise import gerar_relatorio
-from services.graficos import gerar_grafico_tipos
-from utils.logger import logger
+from services.graficos import gerar_graficos
+from services.dashboard import gerar_dashboard
 
 
 class Pipeline:
 
-    def executar(self, dados):
-
-        logger.info("Pipeline iniciado.")
-
-        df = transformar_feriados(dados)
+    def executar(self, df):
 
         salvar_csv(df)
 
         gerar_relatorio(df)
 
-        gerar_grafico_tipos(df)
+        gerar_graficos(df)
 
-        logger.info(f"{len(df)} registros processados.")
-
-        logger.info("Pipeline finalizado.")
+        gerar_dashboard(df)
 
         return df

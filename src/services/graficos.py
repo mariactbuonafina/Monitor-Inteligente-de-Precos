@@ -1,25 +1,86 @@
 import matplotlib.pyplot as plt
+
 from config import GRAFICOS_DIR
 
-GRAFICOS_DIR.mkdir(exist_ok=True)
 
+def gerar_graficos(df):
 
-def gerar_grafico_tipos(df):
+    GRAFICOS_DIR.mkdir(exist_ok=True)
 
-    contagem = df["tipo"].value_counts()
+    # -------------------------------
+    # Preço médio por categoria
+    # -------------------------------
 
-    plt.figure(figsize=(6, 4))
+    media_categoria = (
+        df.groupby("categoria")["preco"]
+        .mean()
+        .sort_values()
+    )
 
-    contagem.plot(kind="bar")
+    plt.figure(figsize=(8, 5))
 
-    plt.title("Quantidade por tipo de feriado")
+    media_categoria.plot(kind="bar")
 
-    plt.xlabel("Tipo")
-
-    plt.ylabel("Quantidade")
+    plt.title("Preço médio por categoria")
 
     plt.tight_layout()
 
-    plt.savefig(GRAFICOS_DIR / "tipos_feriados.png")
+    plt.savefig(
+        GRAFICOS_DIR / "preco_por_categoria.png"
+    )
+
+    plt.close()
+
+    # -------------------------------
+    # Quantidade por categoria
+    # -------------------------------
+
+    quantidade_categoria = (
+        df["categoria"]
+        .value_counts()
+    )
+
+    plt.figure(figsize=(8, 5))
+
+    quantidade_categoria.plot(kind="pie", autopct="%1.1f%%")
+
+    plt.ylabel("")
+
+    plt.title("Distribuição das categorias")
+
+    plt.tight_layout()
+
+    plt.savefig(
+        GRAFICOS_DIR / "categorias.png"
+    )
+
+    plt.close()
+
+    # -------------------------------
+    # Top 10 preços
+    # -------------------------------
+
+    top10 = (
+        df.sort_values(
+            by="preco",
+            ascending=False
+        )
+        .head(10)
+    )
+
+    plt.figure(figsize=(10, 6))
+
+    plt.barh(
+        top10["produto"],
+        top10["preco"]
+    )
+
+    plt.title("Top 10 maiores preços")
+
+    plt.tight_layout()
+
+    plt.savefig(
+        GRAFICOS_DIR / "top10_precos.png"
+    )
 
     plt.close()

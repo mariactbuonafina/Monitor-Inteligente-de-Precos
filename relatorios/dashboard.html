@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Monitor Inteligente de Produtos</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f4f4f4;
+margin:40px;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+}
+
+.kpis{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+margin-bottom:30px;
+}
+
+.kpi{
+flex:1;
+min-width:180px;
+background:white;
+padding:20px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 2px 6px rgba(0,0,0,.15);
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+margin-bottom:30px;
+box-shadow:0 2px 6px rgba(0,0,0,.15);
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+border:1px solid #ddd;
+padding:8px;
+}
+
+th{
+background:#0d6efd;
+color:white;
+}
+
+img{
+width:100%;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+
+
+<h1>📊 Monitor Inteligente de Produtos</h1>
+
+<div class="kpis">
+
+<div class="kpi">
+
+<h2>13</h2>
+
+Produtos
+
+</div>
+
+<div class="kpi">
+
+<h2>3</h2>
+
+Categorias
+
+</div>
+
+<div class="kpi">
+
+<h2>R$ 804.99</h2>
+
+Preço Médio
+
+</div>
+
+<div class="kpi">
+
+<h2>R$ 1999.99</h2>
+
+Maior Preço
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Produtos mais caros</h2>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>data_coleta</th>
+      <th>produto</th>
+      <th>categoria</th>
+      <th>marca</th>
+      <th>preco</th>
+      <th>avaliacao</th>
+      <th>estoque</th>
+      <th>origem</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2026-07-30 15:44:11.483879</td>
+      <td>Apple MacBook Pro 14 Inch Space Grey</td>
+      <td>laptops</td>
+      <td>Apple</td>
+      <td>1999.99</td>
+      <td>3.65</td>
+      <td>24</td>
+      <td>DummyJSON</td>
+    </tr>
+    <tr>
+      <td>2026-07-30 15:44:11.483879</td>
+      <td>Asus Zenbook Pro Dual Screen Laptop</td>
+      <td>laptops</td>
+      <td>Asus</td>
+      <td>1799.99</td>
+      <td>3.95</td>
+      <td>45</td>
+      <td>DummyJSON</td>
+    </tr>
+    <tr>
+      <td>2026-07-30 15:44:11.483879</td>
+      <td>New DELL XPS 13 9300 Laptop</td>
+      <td>laptops</td>
+      <td>Dell</td>
+      <td>1499.99</td>
+      <td>2.67</td>
+      <td>74</td>
+      <td>DummyJSON</td>
+    </tr>
+    <tr>
+      <td>2026-07-30 15:44:11.483879</td>
+      <td>Huawei Matebook X Pro</td>
+      <td>laptops</td>
+      <td>Huawei</td>
+      <td>1399.99</td>
+      <td>4.98</td>
+      <td>75</td>
+      <td>DummyJSON</td>
+    </tr>
+    <tr>
+      <td>2026-07-30 15:44:10.979245</td>
+      <td>iPhone 13 Pro</td>
+      <td>smartphones</td>
+      <td>Apple</td>
+      <td>1099.99</td>
+      <td>4.12</td>
+      <td>56</td>
+      <td>DummyJSON</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+<div class="card">
+
+<h2>Produtos mais baratos</h2>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>data_coleta</th>
+      <th>produto</th>
+      <th>categoria</th>
+      <th>marca</th>
+      <th>preco</th>
+      <th>avaliacao</th>
+      <th>estoque</th>
+      <th>origem</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2026-07-30 15:44:10.979245</td>
+      <td>Selfie Lamp with iPhone</td>
+      <td>mobile-accessories</td>
+      <td>GadgetMaster</td>
+      <td>14.99</td>
+      <td>3.55</td>
+      <td>58</td>
+      <td>DummyJSON</td>
+    </tr>
+    <tr>
+      <td>2026-07-30 15:44:10.979245</td>
+      <td>Apple iPhone Charger</td>
+      <td>mobile-accessories</td>
+      <td>Apple</td>
+      <td>19.99</td>
+      <td>4.15</td>
+      <td>31</td>
+      <td>DummyJSON</td>
+    </tr>
+    <tr>
+      <td>2026-07-30 15:44:10.979245</td>
+      <td>iPhone 12 Silicone Case with MagSafe Plum</td>
+      <td>mobile-accessories</td>
+      <td>Apple</td>
+      <td>29.99</td>
+      <td>3.62</td>
+      <td>69</td>
+      <td>DummyJSON</td>
+    </tr>
+    <tr>
+      <td>2026-07-30 15:44:10.979245</td>
+      <td>Apple MagSafe Battery Pack</td>
+      <td>mobile-accessories</td>
+      <td>Apple</td>
+      <td>99.99</td>
+      <td>3.62</td>
+      <td>1</td>
+      <td>DummyJSON</td>
+    </tr>
+    <tr>
+      <td>2026-07-30 15:44:10.979245</td>
+      <td>iPhone 5s</td>
+      <td>smartphones</td>
+      <td>Apple</td>
+      <td>199.99</td>
+      <td>2.83</td>
+      <td>25</td>
+      <td>DummyJSON</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+<div class="card">
+
+<h2>Preço médio por categoria</h2>
+
+<img src="../graficos/preco_por_categoria.png">
+
+</div>
+
+<div class="card">
+
+<h2>Distribuição das categorias</h2>
+
+<img src="../graficos/categorias.png">
+
+</div>
+
+<div class="card">
+
+<h2>Top 10 maiores preços</h2>
+
+<img src="../graficos/top10_precos.png">
+
+</div>
+
+
+
+</div>
+
+</body>
+
+</html>

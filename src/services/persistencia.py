@@ -1,25 +1,18 @@
 import pandas as pd
+from pandas.errors import EmptyDataError
 
-from config import (
-    DADOS_DIR,
-    FERIADOS_CSV,
-    HISTORICO_CSV
-)
+from config import PRECOS_CSV, HISTORICO_CSV
 
 
 def salvar_csv(df):
 
-    DADOS_DIR.mkdir(exist_ok=True)
-
-    # Estado atual
     df.to_csv(
-        FERIADOS_CSV,
+        PRECOS_CSV,
         index=False,
         encoding="utf-8"
     )
 
-    # Histórico
-    if HISTORICO_CSV.exists():
+    try:
 
         historico = pd.read_csv(HISTORICO_CSV)
 
@@ -28,7 +21,7 @@ def salvar_csv(df):
             ignore_index=True
         )
 
-    else:
+    except (FileNotFoundError, EmptyDataError):
 
         historico = df
 

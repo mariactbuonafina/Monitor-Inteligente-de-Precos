@@ -1,28 +1,68 @@
-from pathlib import Path
+from config import RELATORIOS_DIR
+
+
+def top_mais_caros(df, quantidade=5):
+
+    return (
+        df.sort_values(
+            by="preco",
+            ascending=False
+        )
+        .head(quantidade)
+    )
+
+
+def top_mais_baratos(df, quantidade=5):
+
+    return (
+        df.sort_values(
+            by="preco",
+            ascending=True
+        )
+        .head(quantidade)
+    )
+
 
 def gerar_relatorio(df):
 
-    pasta = Path("relatorios")
-    pasta.mkdir(exist_ok=True)
+    RELATORIOS_DIR.mkdir(exist_ok=True)
 
-    with open(
-        pasta / "resumo.txt",
-        "w",
-        encoding="utf-8"
-    ) as arquivo:
+    arquivo = RELATORIOS_DIR / "resumo.md"
 
-        arquivo.write("=== RESUMO DA COLETA ===\n\n")
+    mais_caros = top_mais_caros(df)
+    mais_baratos = top_mais_baratos(df)
 
-        arquivo.write(f"Total de registros: {len(df)}\n")
+    with open(arquivo, "w", encoding="utf-8") as md:
 
-        arquivo.write(
-            f"Colunas: {', '.join(df.columns)}\n"
+        md.write("# 📊 Relatório da Coleta\n\n")
+
+        md.write("## Indicadores Gerais\n\n")
+
+        md.write(f"- **Produtos encontrados:** {len(df)}\n")
+        md.write(f"- **Categorias:** {df['categoria'].nunique()}\n")
+        md.write(f"- **Marcas:** {df['marca'].nunique()}\n")
+        md.write(f"- **Preço médio:** R$ {df['preco'].mean():.2f}\n")
+        md.write(f"- **Menor preço:** R$ {df['preco'].min():.2f}\n")
+        md.write(f"- **Maior preço:** R$ {df['preco'].max():.2f}\n")
+        md.write(f"- **Maior avaliação:** {df['avaliacao'].max()}\n")
+        md.write(f"- **Data da coleta:** {df['data_coleta'].max()}\n")
+
+        md.write("\n---\n\n")
+
+        md.write("## 💰 Top 5 produtos mais caros\n\n")
+
+        md.write(
+            mais_caros[
+                ["produto", "preco"]
+            ].to_markdown(index=False)
         )
 
-        arquivo.write(
-            f"Última coleta: {df['data_coleta'].max()}\n"
-        )
+        md.write("\n\n---\n\n")
 
-        arquivo.write(
-            f"Tipos de feriado: {df['tipo'].nunique()}\n"
+        md.write("## 🛒 Top 5 produtos mais baratos\n\n")
+
+        md.write(
+            mais_baratos[
+                ["produto", "preco"]
+            ].to_markdown(index=False)
         )
