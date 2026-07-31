@@ -1,13 +1,12 @@
+from services.database import criar_banco
 from core.executor import executar_pipeline
 
 
 def main():
 
-    df = executar_pipeline()
+    criar_banco()
 
-    if df is None:
-        print("Nenhum produto encontrado.")
-        return
+    df = executar_pipeline()
 
     print(df.head())
 

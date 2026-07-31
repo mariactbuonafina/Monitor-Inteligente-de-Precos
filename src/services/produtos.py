@@ -1,9 +1,5 @@
-import json
-
-from config import PRODUTOS_JSON
-
+from services.produtos_db import listar_produtos
 
 def carregar_produtos():
 
-    with open(PRODUTOS_JSON, "r", encoding="utf-8") as arquivo:
-        return json.load(arquivo)
+    return listar_produtos()
