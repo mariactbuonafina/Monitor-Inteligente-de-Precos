@@ -2,108 +2,73 @@ from pathlib import Path
 
 from config import RELATORIOS_DIR
 
-from services.analise import (
-    top_mais_caros,
-    top_mais_baratos
-)
-
 
 def gerar_dashboard(df):
 
-    template = Path("templates/dashboard.html")
-
-    html = template.read_text(
-        encoding="utf-8"
-    )
-
-    conteudo = f"""
-
-<h1>📊 Monitor Inteligente de Produtos</h1>
-
-<div class="kpis">
-
-<div class="kpi">
-
-<h2>{len(df)}</h2>
-
-Produtos
-
-</div>
-
-<div class="kpi">
-
-<h2>{df["categoria"].nunique()}</h2>
-
-Categorias
-
-</div>
-
-<div class="kpi">
-
-<h2>R$ {df["preco"].mean():.2f}</h2>
-
-Preço Médio
-
-</div>
-
-<div class="kpi">
-
-<h2>R$ {df["preco"].max():.2f}</h2>
-
-Maior Preço
-
-</div>
-
-</div>
-
-<div class="card">
-
-<h2>Produtos mais caros</h2>
-
-{top_mais_caros(df).to_html(index=False)}
-
-</div>
-
-<div class="card">
-
-<h2>Produtos mais baratos</h2>
-
-{top_mais_baratos(df).to_html(index=False)}
-
-</div>
-
-<div class="card">
-
-<h2>Preço médio por categoria</h2>
-
-<img src="../graficos/preco_por_categoria.png">
-
-</div>
-
-<div class="card">
-
-<h2>Distribuição das categorias</h2>
-
-<img src="../graficos/categorias.png">
-
-</div>
-
-<div class="card">
-
-<h2>Top 10 maiores preços</h2>
-
-<img src="../graficos/top10_precos.png">
-
-</div>
-
-"""
-
-    html = html.replace(
-        "{{conteudo}}",
-        conteudo
-    )
-
     RELATORIOS_DIR.mkdir(exist_ok=True)
+
+    tabela = df.to_html(
+        index=False,
+        classes="tabela",
+        border=0
+    )
+
+    html = f"""
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Monitor de Produtos</title>
+
+<style>
+
+body{{
+    font-family:Arial,sans-serif;
+    margin:40px;
+    background:#f4f4f4;
+}}
+
+h1{{
+    color:#222;
+}}
+
+.tabela{{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}}
+
+.tabela th,
+.tabela td{{
+    border:1px solid #ddd;
+    padding:10px;
+    text-align:left;
+}}
+
+.tabela th{{
+    background:#1976D2;
+    color:white;
+}}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Dashboard de Produtos</h1>
+
+<p>Total de produtos: {len(df)}</p>
+
+{tabela}
+
+</body>
+
+</html>
+"""
 
     with open(
         RELATORIOS_DIR / "dashboard.html",

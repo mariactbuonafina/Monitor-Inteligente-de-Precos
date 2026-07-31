@@ -1,42 +1,15 @@
-import pandas as pd
-
-from api.produtos import buscar_produto
-from services.produtos import carregar_produtos
-from services.tratamento import transformar_dados
-from core.pipeline import Pipeline
+from core.executor import executar_pipeline
 
 
 def main():
 
-    produtos = carregar_produtos()
+    df = executar_pipeline()
 
-    dataframes = []
-
-    for produto in produtos:
-
-        resposta = buscar_produto(produto["nome"])
-
-        df = transformar_dados(resposta)
-
-        if not df.empty:
-            dataframes.append(df)
-
-    if not dataframes:
-
+    if df is None:
         print("Nenhum produto encontrado.")
-
         return
 
-    df_final = pd.concat(
-        dataframes,
-        ignore_index=True
-    )
-
-    pipeline = Pipeline()
-
-    pipeline.executar(df_final)
-
-    print(df_final.head())
+    print(df.head())
 
 
 if __name__ == "__main__":
