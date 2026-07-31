@@ -7,9 +7,7 @@ def gerar_graficos(df):
 
     GRAFICOS_DIR.mkdir(exist_ok=True)
 
-    # -------------------------------
-    # Preço médio por categoria
-    # -------------------------------
+    plt.style.use("ggplot")
 
     media_categoria = (
         df.groupby("categoria")["preco"]
@@ -17,48 +15,62 @@ def gerar_graficos(df):
         .sort_values()
     )
 
-    plt.figure(figsize=(8, 5))
+    plt.figure(figsize=(9, 5))
 
-    media_categoria.plot(kind="bar")
+    media_categoria.plot(
+        kind="bar",
+        edgecolor="black"
+    )
 
-    plt.title("Preço médio por categoria")
+    plt.title(
+        "Preço médio por categoria",
+        fontsize=16,
+        weight="bold"
+    )
+
+    plt.xlabel("Categoria")
+    plt.ylabel("Preço (R$)")
+
+    plt.xticks(rotation=30)
 
     plt.tight_layout()
 
     plt.savefig(
-        GRAFICOS_DIR / "preco_por_categoria.png"
+        GRAFICOS_DIR / "preco_por_categoria.png",
+        dpi=200
     )
 
     plt.close()
-
-    # -------------------------------
-    # Quantidade por categoria
-    # -------------------------------
 
     quantidade_categoria = (
         df["categoria"]
         .value_counts()
     )
 
-    plt.figure(figsize=(8, 5))
+    plt.figure(figsize=(7, 7))
 
-    quantidade_categoria.plot(kind="pie", autopct="%1.1f%%")
+    quantidade_categoria.plot(
+        kind="pie",
+        autopct="%1.1f%%",
+        startangle=90
+    )
 
     plt.ylabel("")
 
-    plt.title("Distribuição das categorias")
+    plt.title(
+        "Distribuição das categorias",
+        fontsize=16,
+        weight="bold"
+    )
 
     plt.tight_layout()
 
     plt.savefig(
-        GRAFICOS_DIR / "categorias.png"
+        GRAFICOS_DIR / "categorias.png",
+        dpi=200
     )
 
     plt.close()
-
-    # -------------------------------
-    # Top 10 preços
-    # -------------------------------
 
     top10 = (
         df.sort_values(
@@ -75,12 +87,19 @@ def gerar_graficos(df):
         top10["preco"]
     )
 
-    plt.title("Top 10 maiores preços")
+    plt.title(
+        "Top 10 maiores preços",
+        fontsize=16,
+        weight="bold"
+    )
+
+    plt.xlabel("Preço (R$)")
 
     plt.tight_layout()
 
     plt.savefig(
-        GRAFICOS_DIR / "top10_precos.png"
+        GRAFICOS_DIR / "top10_precos.png",
+        dpi=200
     )
 
     plt.close()
