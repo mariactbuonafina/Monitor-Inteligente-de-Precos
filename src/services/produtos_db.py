@@ -1,7 +1,5 @@
 import sqlite3
-
 from config import DATABASE_PATH
-
 
 def listar_produtos():
 

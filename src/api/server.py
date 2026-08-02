@@ -1,26 +1,25 @@
 from fastapi import FastAPI
 from core.executor import executar_pipeline
-from pydantic import BaseModel
+from services.database import criar_banco
 from services.produtos_db import (
+    listar_produtos,
     inserir_produto,
-    listar_produtos
+    excluir_produto
 )
 
 app = FastAPI(
-    title="Monitor Inteligente de Produtos"
+    title="Monitor de Preços",
+    version="1.0"
 )
 
-class Produto(BaseModel):
+criar_banco()
 
-    nome: str
-
-    categoria: str
 
 @app.get("/")
 def home():
 
     return {
-        "status": "Servidor funcionando."
+        "mensagem": "API Monitor de Preços"
     }
 
 
@@ -29,30 +28,39 @@ def executar():
 
     df = executar_pipeline()
 
-    if df is None:
-
-        return {
-            "status": "Nenhum produto encontrado."
-        }
-
     return {
-        "status": "Pipeline executado com sucesso.",
-        "produtos": len(df)
+        "status": "ok",
+        "registros": len(df)
     }
-    
+
+
+@app.get("/produtos")
+def produtos():
+
+    return listar_produtos()
+
+
 @app.post("/produtos")
-def cadastrar_produto(produto: Produto):
+def adicionar_produto(
+    nome: str,
+    categoria: str = ""
+):
 
     inserir_produto(
-        produto.nome,
-        produto.categoria
+        nome,
+        categoria
     )
 
     return {
-        "mensagem": "Produto cadastrado com sucesso."
+        "mensagem": "Produto cadastrado."
     }
 
-@app.get("/produtos")
-def obter_produtos():
 
-    return listar_produtos()
+@app.delete("/produtos/{nome}")
+def remover_produto(nome: str):
+
+    excluir_produto(nome)
+
+    return {
+        "mensagem": "Produto removido."
+    }
